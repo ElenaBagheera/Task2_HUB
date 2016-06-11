@@ -1,86 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0"/>
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="desktop.css">
   <link rel="stylesheet" href="debug.css">
   <!-- <script src="js/modernizr.js" charset="utf-8"></script> -->
-  <title>LP TUTORIAL</title>
+  <title>LP Tutorial</title>
 </head>
 <body>
-  <header id="header" class="header">
-    <h1>RESPONSIVE LP</h1>
-    <p>Tutorial for landing page</p>
-    <nav>
-      <ul>
-        <li><a href="#">LINK 1</a></li>
-        <li><a href="#">LINK 2</a></li>
-        <li><a href="#">LINK 3</a></li>
-        <li><a href="#">LINK 4</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="call_to_action">
-    <h2 class="hidden">Call-to-action</h2>
-    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa mollitia ipsum perferendis, maiores in. Facilis, voluptate magnam reiciendis ab amet!</article>
-    <div class="slides"><img src="https://placeimg.com/1448/360/nature" alt=""></div>
-  </section>
-  <section id="signup">
-    <h2 class="hidden">Sign up form</h2>
-    <p>Sign up for our newsletters</p>
-    <div class="signup">
-      <form action=""><input type="email"><input value="Sign up" type="submit"></form>
-    </div>
-  </section>
-  <section class="deadline">
-  </section>
-  <section id="how_we_work">
-    <h2>How we work</h2>
-    <article>
-      <img src="http://www.lingulo.com/tutorial-content/html5/img/icon1.png" alt="Lock">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur.</p>
-      </img>
-    </article>
-    <article>
-      <img src="http://www.lingulo.com/tutorial-content/html5/img/icon2.png" alt="Phone">
-        <h3>In eaque, repellat. Doloremque, ea.</h3>
-        <p>Explicabo fuga, sed esse iste assumenda illum dolorem neque quis.</p>
-      </img>
+
+	<header id="header">
+	    <div class="logo"><img src="img/artist.gif" alt=""></div>
+		<div class="greeting">
+		    <h1>Welcome to Webpainter!</h1>		
+	        <div class="questions">
+				<p>Dreaming of your own site?</p>
+				<p>You don't want anything trivial? You don't like tasteless things?</p>
+				<p>Neither do we!</p>
+			</div>	
+		</div>
+	</header>
+	
+		<nav>
+			<ul>
+				<li><a href="#signup">Sign up</a></li>
+				<li><a href="#how_we_work">How we work</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contacts">Contact us</a></li>
+			</ul>
+		</nav>
+	
+	<section id="call_to_action">
+		<h2 class="hidden">Call-to-action</h2>
+		<article>Inspired by nature and everyday beauty of life, our work won't leave your visitors untouched. Only true emotions for those who understand!</article>
+		<div class="slides">
+			<img src="img/img1.jpg" alt="Nature">
+		</div>
+	</section>
+	
+	<section id="signup">
+		<h2 class="hidden">Sign up form</h2>
+		<div class="signup_call">
+			<p>Sign up for our newsletters</p>
+		</div>
+		<div class="signup_form">
+			<form action=""><input type="email"><input value="Sign up" type="submit"></form>
+		</div>
+	</section>
+	
+	<section class="deadline">
+	</section>
+	
+	<section id="how_we_work">
+		<h2>How we work</h2>
+		<article>
+			<img src="http://www.lingulo.com/tutorial-content/html5/img/icon1.png" alt="Lock">
+			<h3>Security</h3>
+			<p>Your website will be protected from any outer interferance and malicious actions.</p>
+		</article>	
+		<article>
+			<img src="http://www.lingulo.com/tutorial-content/html5/img/icon2.png" alt="Phone">
+        <h3>Version for a mobile phone</h3>
+        <p>You'll get both a version for PC and a version for a mobile phone. It'll be easy to access your website: anytime and anywhere.</p>
+      </article>
     </article>
     <article>
       <img src="http://www.lingulo.com/tutorial-content/html5/img/icon3.png" alt="Settings">
-        <h3>Nihil molestias officiis quasi ipsam.</h3>
-        <p>Ratione illo iure error vel aliquam sunt, accusantium magnam recusandae.</p>
-      </img>
+        <h3>Maintenance service</h3>
+        <p>We won't leave you alone in any subsequent trouble, but help and support your website in any possible way.</p>
     </article>
   </section>
+  
   <section id="portfolio">
- <h2>Portfolio</h2>
- <article> 
-    <div class="img-item"></div>
-    <div class="img-item"></div>
-    <div class="img-item"></div>
-    <div class="img-item"></div>
-  </article>
-      <h3 class="hidden">Description</h3>
-  <figure>
-      <img src="" alt="">
-      <figcaption>Some description</figcaption>
-  </figure>
+	<h2>Portfolio</h2>
+	<article> 
+		<div class="img-item">
+			<figure>
+				<img src="img/nature.jpeg" alt="">
+				<figcaption>This website was created for our client to attract more customers to his shop.</figcaption>
+			</figure>
+		</div>
+		<div class="img-item">
+			<figure>
+				<img src="img/nature.jpeg" alt="">
+				<figcaption>We created a unique bunch of functions to satisfy this order.</figcaption>
+			</figure>
+		</div>
+		<div class="img-item">
+			<figure>
+				<img src="img/nature.jpeg" alt="">
+				<figcaption>This website was created to be a guide to the world of fiction.</figcaption>
+			</figure>
+		</div>
+		<div class="img-item">
+			<figure>
+				<img src="img/nature.jpeg" alt="">
+				<figcaption>We can satisfy the most demanding customers by creating masterpieces like this.</figcaption>
+			</figure>
+		</div>
+	</article>
+    <h3 class="hidden">Description</h3>
   </section>
-  <footer>
-       <h2 class="hidden">Footer</h2>
-       <section id="copyright">
-		<h3 class="hidden">Copyright notice</h3> 
-		<div class="wrapper"></div>
-			<div class="social"></div>
-				<a href=""><img src="" alt="" class="social_icon"></a>
-			<p>Copyright text</p>
-			</section>
+  
+  <footer id="contacts">
+        <h2 class="hidden">Footer</h2>
+	    <h3 class="hidden">Copyright notice</h3> 
+		<div class="wrapper">
+			<div class="contacts">
+				<p>Contact us:</p>
+				<p>Email: webpainter@gmail.com</p>
+				<p>Phone: +380982440063</p>
+				<p>Address: Odessa</p>
+			</div>
+			<div class="social">
+			    <p>Share this info with your friends:</p>
+				<a href=""><img src="img/social1.png" alt="" class="social_icon"></a>
+				<a href=""><img src="img/social2.png" alt="" class="social_icon"></a>
+				<a href=""><img src="img/social3.png" alt="" class="social_icon"></a>
+			</div>
+		</div>	
   </footer>
 </body>
 </html>
